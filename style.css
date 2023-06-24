@@ -77,23 +77,19 @@ video {
 
 #hat {
   display: flex;
-  
-   
-  align-items: center;
-  
+  background-image: url(./images/headerback.png);
+  align-items: flex-end;  
   height: 15%;
   position: fixed;
   z-index: 1;
-  width: 100%;
-  
+  width: 100%;  
   top: 0;
 }
 
-
 #myVideo {
-    display: block;
-  width: 100%;
- top: 0;
+  display:  block;
+  position: relative;
+  width: 100%; 
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -103,3 +99,4 @@ video {
 #mama {
   background-color: aquamarine;
 }
+
