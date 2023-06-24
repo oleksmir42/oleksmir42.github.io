@@ -78,7 +78,7 @@ video {
 #hat {
   display: flex;
   background-image: url(./images/headerback.png);
-  align-items: flex-end;  
+  align-items: self-start;  
   height: 15%;
   position: fixed;
   z-index: 1;
