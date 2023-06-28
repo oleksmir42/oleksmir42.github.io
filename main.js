@@ -41,7 +41,7 @@
 
 
 
-    imagesArr.forEach((n, i) => {
+    rainbowArr.forEach((n, i) => {
       setTimeout(() => {
         l = imagesArr[i];
         document.getElementById("hat").style.backgroundImage = l;
