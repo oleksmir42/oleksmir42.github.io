@@ -63,6 +63,7 @@
 }
 .navig li {
   font-family: "Kablammo", cursive;
+  font-size: x-large;
   list-style: none;
 }
 .navig li a {
@@ -71,6 +72,7 @@
 .menu {
   position: relative;
   font-family: "Kablammo", cursive;
+  font-size: x-large;
   cursor: pointer;
 }
 
@@ -149,4 +151,5 @@ background: rgba(61, 174, 219, 0.3);
     margin-bottom: -10%;
     scale: 1.5;
   }
+  .navig {padding: 10px 1%;}
 }
