@@ -39,7 +39,7 @@ const baloonJumping = [
 ];
 
 const baloonTiming = {
-  duration: 800,
+  duration: 2000,
   iterations: 1,
 };
 
