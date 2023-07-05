@@ -2,54 +2,78 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body id="mama">
-    <video autoplay muted loop id="myVideo">
-      <source src="header5.mp4" type="video/mp4" />
-    </video>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kablammo&family=Work+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
 
-    
-      <ul id="menu">
-        <li>
-          <div id="button1" class="button">
-			
-            <a href=""><img src="button1.png" /></div></a>
-			
+    <title>Tranceconnections festival</title>
+  </head>
+  <body>
+    <div class="hero">
+      <header class="header">
+        <div class="first-flyer" onclick="playAudio('clown.mp3')">
+          <div class="main-name">
+            <img class="nazva1" src="nazva.png" alt="" />
           </div>
-        </li>
-        <li>
-          <div id="button2" class="button">
-            <a href=""><img src="button1.png" /></a>
+          <div class="baloon-play" type="button">
+            <a href=""><img class="pic-baloon" src="baloon.png" alt="" /></a>
+            <audio id="audio" src="clown.mp3"></audio>
           </div>
-        </li>
-        <li>
-          <div id="button3" class="button">
-            <a href=""><img src="button1.png" /></a>
+        </div>
+      </header>
+
+      <div class="navig" id="navig">
+        <div onclick="toggleMenu()" class="menu" role="button" id="menu">
+          MENU
+        </div>
+
+        <li><a href="#"></a>RADIO</li>
+        <li><a href="#"></a>TICKETS</li>
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <div class="sub-info">
+              <a href="#" class="sub-menu-link">
+                <p>TICKETS</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>TICKETS</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>TICKETS</p>
+              </a>
+            </div>
           </div>
-        </li>
-        <li>
-          <div id="button4" class="button">
-            <a href=""><img src="button1.png" /></a>
-          </div>
-        </li>
-        <li>
-          <div id="button4" class="button">
-            <a href=""><img src="button1.png" /></a>
-          </div>
-        </li>
-      </ul>
-   
-	<div id="home"> <img src="ramka.png" alt="">
-		<div id="ramka">
-			<p style="color: white;">jjdkdkdkkdkxdkxkckjcjvcck
-				fmcmcmcmcmcmcmcmcmcmcm
-				ncdjndcjdcjcdjdjdjjfnfnfgnxcgdfgjj
-				dddddvdvdvdvdvdvdvdvdvdvdvdvdvdv
-			</p>
-		</div>
-	</div>
+        </div>
+      </div>
+      <div class="fixed-background">
+        <div class="construction">
+        <h2>ANOTHER REALITY UNDER CONSTRUCTION</h2>
+        </div>
+      </div>
+      
+      <div class="temp-content">
+        
+        <div class="temp">
+          <img src="2dereva.jpg" alt="" />
+        </div>
+        <div class="temp">
+          <img src="2dereva.jpg" alt="" />
+        </div>
+        <div class="temp">
+          <img src="2dereva.jpg" alt="" />
+        </div>
+        <div class="temp">
+          <img src="2dereva.jpg" alt="" />
+        </div>
+      </div>
+    </div>
   </body>
+
   <script src="./main.js"></script>
 </html>
